@@ -27,6 +27,7 @@ sns.set_style('whitegrid')
 sns.lmplot(x='Room.Board',y='Grad.Rate',data=df, hue='Private',
            palette='coolwarm',height=6,aspect=1,fit_reg=False)
 
+
 ## Creating a scatterplot of F.Undergrad versus Outstate where the points are colored by the Private column
 
 sns.set_style('whitegrid')
